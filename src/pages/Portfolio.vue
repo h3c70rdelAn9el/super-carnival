@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="bg-gray-300 h-full mt-8">
+    <div class="bg-gray-300 h-screen mt-8">
       <div class="mb-4 text-center text-2xl pt-4">Portfolio</div>
       <lightbox :images="images" title="" class=""></lightbox>
     </div>
