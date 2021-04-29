@@ -9584,6 +9584,11 @@
     "core-util-is" "1.0.2"
     "extsprintf" "^1.2.0"
 
+"vlightbox@^2.0.2":
+  "integrity" "sha1-kjeYBLURf8RDTLKgRn1AR40S6+k="
+  "resolved" "https://registry.npmjs.org/vlightbox/-/vlightbox-2.0.2.tgz"
+  "version" "2.0.2"
+
 "vm-browserify@^1.0.1":
   "integrity" "sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ=="
   "resolved" "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz"
@@ -9652,7 +9657,7 @@
   "resolved" "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@^2 || ^3.0.0-0", "vue@^2.6.10":
+"vue@^2 || ^3.0.0-0", "vue@^2.3.0", "vue@^2.6.10":
   "integrity" "sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg=="
   "resolved" "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz"
   "version" "2.6.12"
