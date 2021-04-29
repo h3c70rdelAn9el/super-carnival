@@ -1,0 +1,17 @@
+{
+  "name": "gridsome-photo",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.1.3",
+    "gridsome-plugin-tailwindcss": "^4.1.1",
+    "tailwindcss": "^2.1.2"
+  }
+}
