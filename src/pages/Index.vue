@@ -65,7 +65,7 @@
       >
         <g-link to="/portfolio" class="mx-auto ">
           <div>
-            <h2 class="text-center text-2xl mb-2">Portfolio</h2>
+            <h2 class="text-center text-2xl mb-2 font-shadows tracking-wider">Portfolio</h2>
             <p class="text-sm p-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consectetur, accusantium numquam quia praesentium ratione neque

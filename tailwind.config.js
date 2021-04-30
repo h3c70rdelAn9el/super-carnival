@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'coral': '#e7717d'
+        'coral': '#e7717d',
+        'plum': '#6f1d1b'
       },
       fontFamily: {
         'shadows': ['"Shadows Into Light Two"', 'cursive'],
