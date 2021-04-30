@@ -1,13 +1,13 @@
 <template>
   <div>
-    <button @click="display = !display">
-      Menu
+    <button @click="display = !display" class="p-2">
+      <AppIcon :icon="['fas', 'bars']" size="lg" class="w-10"/>
     </button>
     <transition name="block">
       <div v-if="display" class=" h-screen w-screen  fixed  top-0">
         <div class="w-screen h-screen absolute top-0 z-10 bg-black">
-          <button class="bg-coral text-black w-6 rounded-md" @click="display = false">
-            x
+          <button class=" text-black w-6 rounded-md" @click="display = false">
+            <AppIcon :icon="['fas', 'window-close']" size="lg" class="m-2 text-red-400"  style="font-size:30px;"/>
           </button>
           <div class="flex flex-col h-full">
             <div class="border border-coral rounded-lg p-2 px-8 mx-auto my-auto text-center text-xl">

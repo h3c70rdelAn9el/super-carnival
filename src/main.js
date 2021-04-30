@@ -6,10 +6,17 @@ import DefaultLayout from '~/layouts/Default.vue'
 import '~/assets/css/main.css'
 
 import lightbox from 'vlightbox'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { config, library } from '@fortawesome/fontawesome-svg-core'
+import { faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faBars, faWindowClose } from '@fortawesome/free-solid-svg-icons'
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
+config.autoAddCss = false;
 
 export default function (Vue, { router, head, isClient }) {
-  // Set default layout as a global component
+  library.add(faInstagram, faTwitter, faBars, faWindowClose)
   Vue.component('Layout', DefaultLayout)
+  Vue.component('AppIcon', FontAwesomeIcon)
   Vue.use(lightbox)
 }
