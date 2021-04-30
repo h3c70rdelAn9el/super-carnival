@@ -15,6 +15,10 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false;
 
 export default function (Vue, { router, head, isClient }) {
+  head.link.push({
+    rel: 'stylesheet',
+    href: "https://fonts.googleapis.com/css2?family=Raleway&family=Shadows+Into+Light+Two&display=swap",
+  })
   library.add(faInstagram, faTwitter, faBars, faWindowClose)
   Vue.component('Layout', DefaultLayout)
   Vue.component('AppIcon', FontAwesomeIcon)

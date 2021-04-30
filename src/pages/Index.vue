@@ -8,7 +8,7 @@
           >
             <!-- <h1 class="text-black text-4xl p-5">Erin Black</h1> -->
             <img src="../assets/images/LogoMakr-2bCkpf.png" alt="" class="w-52 mx-auto">
-            <p class="text-2xl">Welcome to my Portrait Studio</p>
+            <p class="text-3xl font-shadows tracking-wider">Welcome to my Portrait Studio</p>
           </div>
         </div>
       </div>
@@ -25,9 +25,9 @@
     </div>
     <section class="h-full flex flex-col mx-auto sm:flex-row">
       <div class="text-center mx-auto w-1/2 p-4 ">
-        <div>
-          <h2 class="text-xl mb-4">photography</h2>
-          <h2>At your service</h2>
+        <div class="font-shadows tracking-wider mt-3 ">
+          <h2 class="text-xl">Custom Photography</h2>
+          <h2 class="mb-4">At your service</h2>
         </div>
         <p class="mb-4">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
@@ -36,6 +36,10 @@
         <hr class="border border-black" />
         <p class="my-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <hr class="border border-black" />
+        <p class="my-4">
+          Tempora quidem rem modi assumenda in praesentium. Odit, assumenda soluta tempora incidunt earum voluptatem repellendus aliquid omnis eaque.
         </p>
         <button
           class="bg-coral p-2 rounded-md shadow-lg hover:bg-gray-500 hover:text-gray-200"
