@@ -15,6 +15,11 @@
       <a href="https://unsplash.com/@beatriz_perez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
         Beatriz Pérez Moya,
       </a>
+      <a href="https://unsplash.com/@wisdomsky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Julian Paolo Dayag</a>
+
+      <a href="https://unsplash.com/@juanmount?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Juan Cruz Mountford</a>
+  
+  
       <a href="https://unsplash.com/@fotopettine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
         Foto Pettine, & 
       </a>

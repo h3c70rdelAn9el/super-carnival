@@ -6,7 +6,6 @@
           <div
             class="bg-pink-400 text-center  mx-auto px-20 rounded-md shadow-lg py-4"
           >
-            <!-- <h1 class="text-black text-4xl p-5">Erin Black</h1> -->
             <img src="../assets/images/LogoMakr-2bCkpf.png" alt="" class="w-52 mx-auto">
             <p class="text-3xl font-shadows tracking-wider">Welcome to my Portrait Studio</p>
           </div>
