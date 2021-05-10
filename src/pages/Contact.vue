@@ -2,7 +2,8 @@
   <SolidLayout>
     <div class="contact mt-8 pt-2">
       <div class="relative h-80">
-        <div class="absolute top-40 left-0 right-0">
+        <!-- <div class="absolute top-40 left-0 right-0"> -->
+        <div class="absolute top-2/3 sm:top-40 left-0 right-0">
           <div class="flex flex-col opacity-75">
             <div
               class="bg-pink-400 text-center  mx-auto -mt-32 sm:-mt-12 px-10 rounded-md shadow-lg py-4"

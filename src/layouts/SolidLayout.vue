@@ -1,6 +1,6 @@
 <template>
   <div class="solid-layout">
-    <header class="header">
+    <header>
       <Navbar />
     </header>
     <slot class="" />
