@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="relative h-screen">
+    <div class="relative">
       <div class="absolute sm:inset-1/4 inset-20">
         <div class="flex flex-col opacity-75">
           <div
@@ -17,14 +17,14 @@
         class="p-container"
       >
         <img
-          class="h-full opacity-80"
+          class=" opacity-80"
           src="../assets/images/sofia-hernandez-8cCfjxR8KTw-unsplash.jpg"
         />
       </parallax>
     </div>
     <section class="h-full flex flex-col mx-auto sm:flex-row">
       <div class="text-center mx-auto w-1/2 p-4 ">
-        <div class="font-shadows tracking-wider mt-3 ">
+        <div class="font-shadows tracking-wider">
           <h2 class="text-xl">Custom Photography</h2>
           <h2 class="mb-4">At your service</h2>
         </div>
