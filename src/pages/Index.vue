@@ -1,13 +1,13 @@
 <template>
   <Layout>
     <div class="relative h-screen">
-      <div class="absolute top-72 left-0 right-0">
+      <div class="absolute sm:inset-1/4 inset-20">
         <div class="flex flex-col opacity-75">
           <div
-            class="bg-pink-400 text-center  mx-auto px-20 rounded-md shadow-lg py-4"
+            class="bg-pink-400 text-center  mx-auto px-10 sm:px-20 rounded-md shadow-lg py-4"
           >
             <img src="../assets/images/LogoMakr-2bCkpf.png" alt="" class="w-52 mx-auto">
-            <p class="text-3xl font-shadows tracking-wider">Welcome to my Portrait Studio</p>
+            <p class="sm:text-3xl text-2xl font-shadows tracking-wider">Welcome to my Portrait Studio</p>
           </div>
         </div>
       </div>
@@ -124,4 +124,6 @@ export default {
 .g-image {
   border-radius: 20px;
 }
+
+
 </style>

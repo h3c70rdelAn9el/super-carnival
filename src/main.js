@@ -3,6 +3,7 @@
 require('~/assets/css/main.css')
 
 import DefaultLayout from '~/layouts/Default.vue'
+import SolidLayout from '~/layouts/SolidLayout.vue'
 import '~/assets/css/main.css'
 
 import lightbox from 'vlightbox'
@@ -21,6 +22,7 @@ export default function (Vue, { router, head, isClient }) {
   })
   library.add(faInstagram, faTwitter, faBars, faWindowClose)
   Vue.component('Layout', DefaultLayout)
+  Vue.component('SolidLayout', SolidLayout)
   Vue.component('AppIcon', FontAwesomeIcon)
   Vue.use(lightbox)
 }

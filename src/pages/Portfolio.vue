@@ -1,10 +1,10 @@
 <template>
-  <Layout>
-    <div class="bg-gray-300 h-screen mt-8">
-      <div class="mb-4 text-center text-2xl pt-4">Portfolio</div>
-      <lightbox :images="images" title="" class=""></lightbox>
+  <SolidLayout>
+    <div class="bg-gray-300 min-h-screen pb-10 mt-8">
+      <div class="mb-4 text-center text-3xl font-shadows tracking-wider pt-4">Portfolio</div>
+      <lightbox :images="images" class="p-2"></lightbox>
     </div>
-  </Layout>
+  </SolidLayout>
 </template>
 
 <script>
