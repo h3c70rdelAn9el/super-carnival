@@ -1,10 +1,10 @@
 <template>
   <Layout>
     <div class="relative">
-      <div class="absolute sm:inset-1/4 inset-20">
-        <div class="flex flex-col opacity-75">
+      <div class="absolute flex sm:inset-1/4 inset-20">
+        <div class="m-auto flex flex-col opacity-75">
           <div
-            class="bg-pink-400 text-center  mx-auto px-10 sm:px-20 rounded-md shadow-lg py-4"
+            class="bg-pink-400 text-center  m-auto px-10 sm:px-20 rounded-md shadow-lg py-4"
           >
             <img src="../assets/images/LogoMakr-2bCkpf.png" alt="" class="w-52 mx-auto">
             <p class="sm:text-3xl text-2xl font-shadows tracking-wider">Welcome to my Portrait Studio</p>
