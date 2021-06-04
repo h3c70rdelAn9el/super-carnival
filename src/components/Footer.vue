@@ -35,6 +35,7 @@
       <p>
         Logo by <a href="https://logomakr.com">LogoMakr</a>
       </p>
+      <p>Favicon by <a href="https://www.freefavicon.com/">freefavicon.com</a></p>
       <p class="mt-4">
         Sample site made by h3c70r
       </p>
