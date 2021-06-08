@@ -5,12 +5,12 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 const tailwind = require('tailwindcss')
-const purgecss = require('@fullhuman/postcss-purgecss')
-const autoprefixer = require('autoprefixer')
+// const purgecss = require('@fullhuman/postcss-purgecss')
+// const autoprefixer = require('autoprefixer')
 
 const postcssPlugins = [
   tailwind(),
-  autoprefixer()
+  // autoprefixer()
 ]
 
 // if (process.env.NODE_ENV === 'production')
@@ -20,15 +20,15 @@ const postcssPlugins = [
 module.exports = {
   siteName: 'Gridsome Photo',
   plugins: [
-    {
-      use: 'gridsome-plugin-tailwindcss'
-    }
+    // {
+    //   use: 'gridsome-plugin-tailwindcss'
+    // }
   ],
-  // css: {
-  //   loaderOptions: {
-  //     postcss: {
-  //       plugins: postcssPlugins,
-  //     },
-  //   },
-  // },
+  css: {
+    loaderOptions: {
+      postcss: {
+        plugins: postcssPlugins,
+      },
+    },
+  },
 }
