@@ -11,7 +11,11 @@ const postcssPlugins = [
   tailwind()
 ]
 
-if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require('../purgecss.config.js')))
+// if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require('../purgecss.config.js')))
+
+if (process.env.NODE_ENV === 'production')
+  postcssPlugins.push(purgecss(require('./purgecss.config.js')))
+
 
 module.exports = {
   siteName: 'Gridsome Photo',
