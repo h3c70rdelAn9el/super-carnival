@@ -6,25 +6,29 @@
 
 const tailwind = require('tailwindcss')
 const purgecss = require('@fullhuman/postcss-purgecss')
+const autoprefixer = require('autoprefixer')
 
 const postcssPlugins = [
-  tailwind()
+  tailwind(),
+  autoprefixer()
 ]
 
-// if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require('../purgecss.config.js')))
-
-if (process.env.NODE_ENV === 'production')
-  postcssPlugins.push(purgecss(require('./purgecss.config.js')))
+// if (process.env.NODE_ENV === 'production')
+//   postcssPlugins.push(purgecss(require('./purgecss.config.js')))
 
 
 module.exports = {
   siteName: 'Gridsome Photo',
-  plugins: [],
-  css: {
-    loaderOptions: {
-      postcss: {
-        plugins: postcssPlugins,
-      },
-    },
-  },
+  plugins: [
+    {
+      use: 'gridsome-plugin-tailwindcss'
+    }
+  ],
+  // css: {
+  //   loaderOptions: {
+  //     postcss: {
+  //       plugins: postcssPlugins,
+  //     },
+  //   },
+  // },
 }
