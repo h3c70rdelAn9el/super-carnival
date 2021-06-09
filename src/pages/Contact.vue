@@ -122,6 +122,6 @@ export default {
 
 <style>
 .p-container img {
-  height: 500px !important;
+  height: 100vh !important;
 }
 </style>
