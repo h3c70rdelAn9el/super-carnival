@@ -23,8 +23,8 @@
           breakpoint="(min-width: 80px)"
           class="p-container"
         >
-          <g-image
-            class=" opacity-80"
+          <img
+            class="h-screen opacity-80"
             src="../assets/images/sofia-hernandez-8cCfjxR8KTw-unsplash.jpg"
           />
         </parallax>

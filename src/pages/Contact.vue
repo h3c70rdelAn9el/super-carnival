@@ -42,7 +42,7 @@
                 <input
                   class="block w-full px-4 py-3 mb-3 leading-tight text-gray-700 bg-gray-200 border rounded appearance-none focus:outline-none focus:bg-white"
                   type="text"
-                  placeholder="Frodo"
+                  placeholder="Pablo"
                 />
               </div>
               <div class="w-full px-3 md:w-1/2">
@@ -55,7 +55,7 @@
                 <input
                   class="block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500"
                   type="text"
-                  placeholder="Baggins"
+                  placeholder="Picasso"
                 />
               </div>
             </div>
@@ -71,7 +71,7 @@
                   class="block w-full px-4 py-3 mb-3 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500"
                   id="email"
                   type="email"
-                  placeholder="frodobaggins@theshire.com"
+                  placeholder="pablopicasso@artmail.com"
                 />
               </div>
             </div>
