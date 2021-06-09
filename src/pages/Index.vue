@@ -24,7 +24,7 @@
           class="p-container"
         >
           <img
-            class="h-screen opacity-80"
+            class="object-cover min-h-screen opacity-80"
             src="../assets/images/sofia-hernandez-8cCfjxR8KTw-unsplash.jpg"
           />
         </parallax>
@@ -129,9 +129,9 @@ export default {
   text-align: center;
 }
 
-.p-container {
+/* .p-container {
   height: 100vh !important;
-}
+} */
 
 .g-image {
   border-radius: 20px;
