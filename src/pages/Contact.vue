@@ -1,88 +1,90 @@
 <template>
   <SolidLayout>
-    <div class="contact mt-8 pt-2">
+    <div class="pt-2 mt-8 contact">
       <div class="relative h-80">
-        <!-- <div class="absolute top-40 left-0 right-0"> -->
-        <div class="absolute top-2/3 sm:top-40 left-0 right-0">
+        <!-- <div class="absolute left-0 right-0 top-40"> -->
+        <div class="absolute left-0 right-0 top-2/3 sm:top-40">
           <div class="flex flex-col opacity-75">
             <div
-              class="bg-pink-400 text-center  mx-auto -mt-32 sm:-mt-12 px-10 rounded-md shadow-lg py-4"
+              class="px-10 py-4 mx-auto -mt-32 text-center bg-pink-400 rounded-md shadow-lg sm:-mt-12"
             >
-              <p class="text-3xl font-shadows tracking-wider">
+              <p class="text-3xl tracking-wider font-shadows">
                 {{ pageTitle }}
               </p>
             </div>
           </div>
         </div>
-        <parallax
-          :speed-factor="0.5"
-          breakpoint="(min-width: 80px)"
-          class="p-container"
-        >
-          <img
-            class="opacity-80"
-            src="../assets/images/ranurte-SykNC3DC630-unsplash.jpg"
-          />
-        </parallax>
+        <ClientOnly>
+          <parallax
+            :speed-factor="0.5"
+            breakpoint="(min-width: 80px)"
+            class="p-container"
+          >
+            <g-image
+              class="opacity-80"
+              src="../assets/images/ranurte-SykNC3DC630-unsplash.jpg"
+            />
+          </parallax>
+        </ClientOnly>
       </div>
 
-      <div class="bg-gray-300 pt-4">
+      <div class="pt-4 bg-gray-300">
         <div class="mx-16">
           <form class="w-full">
-            <div class="flex flex-wrap -mx-3 mb-6">
-              <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <div class="flex flex-wrap mb-6 -mx-3">
+              <div class="w-full px-3 mb-6 md:w-1/2 md:mb-0">
                 <label
-                  class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                  class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
                   for="grid-first-name"
                 >
                   First Name
                 </label>
                 <input
-                  class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  class="block w-full px-4 py-3 mb-3 leading-tight text-gray-700 bg-gray-200 border rounded appearance-none focus:outline-none focus:bg-white"
                   type="text"
                   placeholder="Frodo"
                 />
               </div>
-              <div class="w-full md:w-1/2 px-3">
+              <div class="w-full px-3 md:w-1/2">
                 <label
-                  class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                  class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
                   for="grid-last-name"
                 >
                   Last Name
                 </label>
                 <input
-                  class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  class="block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500"
                   type="text"
                   placeholder="Baggins"
                 />
               </div>
             </div>
-            <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="flex flex-wrap mb-6 -mx-3">
               <div class="w-full px-3">
                 <label
-                  class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                  class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
                   for="email"
                 >
                   E-mail
                 </label>
                 <input
-                  class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  class="block w-full px-4 py-3 mb-3 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500"
                   id="email"
                   type="email"
                   placeholder="frodobaggins@theshire.com"
                 />
               </div>
             </div>
-            <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="flex flex-wrap mb-6 -mx-3">
               <div class="w-full px-3">
                 <label
-                  class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                  class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
                   for="message"
                 >
                   Message
                 </label>
                 <textarea
-                  class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                  class="block w-full h-48 px-4 py-3 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none resize-none no-resize focus:outline-none focus:bg-white focus:border-gray-500"
                   id="message"
                   placeholder="blah blah blah..."
                 ></textarea>
@@ -90,7 +92,7 @@
             </div>
             <div class="flex">
               <button
-                class="shadow hover:bg-gray-400 transition ease-in-out duration-200 focus:shadow-outline focus:outline-none text-yellow-900 font-bold py-2 px-4 rounded mx-auto mb-4"
+                class="px-4 py-2 mx-auto mb-4 font-bold text-yellow-900 transition duration-200 ease-in-out rounded shadow hover:bg-gray-400 focus:shadow-outline focus:outline-none"
                 type="button"
               >
                 Send

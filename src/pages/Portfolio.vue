@@ -1,8 +1,10 @@
 <template>
   <SolidLayout>
-    <div class="bg-gray-300 min-h-screen pb-10 mt-8">
-      <div class="mb-4 text-center text-3xl font-shadows tracking-wider pt-4">Portfolio</div>
-      <lightbox :images="images" class="p-2"></lightbox>
+    <div class="min-h-screen pb-10 mt-8 bg-gray-300">
+      <div class="pt-4 mb-4 text-3xl tracking-wider text-center font-shadows">Portfolio</div>
+      <ClientOnly>
+        <lightbox :images="images" class="p-2"></lightbox>
+      </ClientOnly>  
     </div>
   </SolidLayout>
 </template>
