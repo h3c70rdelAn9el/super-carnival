@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="relative">
+    <div class="relative h-screen">
       <div class="absolute flex sm:inset-1/4 inset-20">
         <div class="flex flex-col m-auto opacity-75">
           <div
